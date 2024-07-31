@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>wayfarer</title>
+    <link rel="stylesheet" href="assets/css/main.css" />
+  </head>
+  <body>
+    <div class="app">
+      <div class="main">
+        <header>
+          <h1 class="header__brand">wayfarer</h1>
+          <nav>
+            <a href="/" class="nav__item">home</a>
+            <a href="#package" class="nav__item">package</a>
+            <a href="#call" class="nav__item">call us</a>
+          </nav>
+        </header>
+
+        <div class="container">
+          <section class="left">
+            <div class="heading">
+              <div class="wrapper">
+                <p class="heading__text">
+                  <span>wayfarer</span>
+                  is your trusted agent for unforgettable travel experiences.
+                </p>
+
+                <p class="heading__sub">
+                  Discover unforgettable journeys with us, where every moment is
+                  tailored to your dreams. Your happiness is our happiness.
+                </p>
+              </div>
+            </div>
+
+            <div class="form">
+              <img src="assets/img/formbg.jpg" alt="" class="form__bg" />
+              <form>
+                <h1 class="form__title">Contact Us</h1>
+
+                <div class="input__container">
+                  <div class="input__wrapper">
+                    <input type="text" placeholder="Full Name" id="inputName" />
+                    <input type="text" placeholder="Email" id="inputEmail" />
+                  </div>
+
+                  <div class="input__wrapper">
+                    <select name="" id="">
+                      <option value="" disabled selected>Package</option>
+                      <option value="">Indonesia</option>
+                      <option value="">Japan</option>
+                      <option value="">Germany</option>
+                      <option value="">Italy</option>
+                      <option value="">Finland</option>
+                      <option value="">Korea</option>
+                    </select>
+                    <input
+                      type="button"
+                      value="Send"
+                      id="inputSubmit"
+                      onclick="formValidation()"
+                    />
+                  </div>
+                </div>
+              </form>
+            </div>
+          </section>
+
+          <section class="right">
+            <div class="carousel">
+              <div class="carousel__item">
+                <img
+                  src="assets/img/banner_1.jpg"
+                  alt=""
+                  class="carousel__item__banner"
+                />
+
+                <div class="carousel__info">
+                  <img
+                    src="assets/img/pfp_1.jpg"
+                    alt=""
+                    class="carousel__info__pfp"
+                  />
+
+                  <h1 class="carousel__info__text">Florence Hughes</h1>
+                  <p class="carousel__info__text">
+                    "My trip was a blast with wayfarer."
+                  </p>
+                </div>
+              </div>
+
+              <div class="carousel__item">
+                <img
+                  src="assets/img/banner_2.jpg"
+                  alt=""
+                  class="carousel__item__banner"
+                />
+
+                <div class="carousel__info">
+                  <img
+                    src="assets/img/pfp_2.jpg"
+                    alt=""
+                    class="carousel__info__pfp"
+                  />
+
+                  <h1 class="carousel__info__text">John Doe</h1>
+                  <p class="carousel__info__text">
+                    "My trip was a blast with wayfarer."
+                  </p>
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+      </div>
+
+      <div class="benefit">
+        <div class="benefit__card">
+          <span class="benefit__card__heading">100+</span>
+
+          <div class="benefit__card__wrapper">
+            <span class="benefit__card__sub">Clients</span>
+            <p>
+              Our travel agency serves over 100 clients, ensuring personalized
+              travel experiences and dedicated support for a wide range of needs
+              and preferences.
+            </p>
+          </div>
+        </div>
+
+        <div class="benefit__card">
+          <span class="benefit__card__heading">100%</span>
+
+          <div class="benefit__card__wrapper">
+            <span class="benefit__card__sub">Commitment</span>
+            <p>
+              We are 100% committed to providing exceptional service, from
+              planning to execution, ensuring every client has a seamless and
+              memorable travel experience.
+            </p>
+          </div>
+        </div>
+
+        <div class="benefit__card">
+          <span class="benefit__card__heading">120+</span>
+
+          <div class="benefit__card__wrapper">
+            <span class="benefit__card__sub">Promotions</span>
+            <p>
+              We offer over 120 promotions throughout the year, giving clients
+              access to exclusive deals, discounts, and packages to make their
+              travel more affordable and enjoyable.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="package" id="package">
+        <h1 class="package__heading">Our Packages</h1>
+
+        <div class="package__row">
+          <div class="package__container">
+            <div class="package__wrapper">
+              <div class="package__extra"></div>
+            </div>
+            <div class="package__wrapper">
+              <h1 class="package__text">Indonesia</h1>
+              <p class="package__text">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo,
+                consequuntur?
+              </p>
+            </div>
+          </div>
+
+          <div class="package__container">
+            <div class="package__wrapper">
+              <div class="package__extra"></div>
+            </div>
+            <div class="package__wrapper">
+              <h1 class="package__text">Japan</h1>
+              <p class="package__text">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo,
+                consequuntur?
+              </p>
+            </div>
+          </div>
+
+          <div class="package__container">
+            <div class="package__wrapper">
+              <div class="package__extra"></div>
+            </div>
+            <div class="package__wrapper">
+              <h1 class="package__text">Germany</h1>
+              <p class="package__text">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo,
+                consequuntur?
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="package__row">
+          <div class="package__container">
+            <div class="package__wrapper">
+              <div class="package__extra"></div>
+            </div>
+            <div class="package__wrapper">
+              <h1 class="package__text">Italy</h1>
+              <p class="package__text">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo,
+                consequuntur?
+              </p>
+            </div>
+          </div>
+
+          <div class="package__container">
+            <div class="package__wrapper">
+              <div class="package__extra"></div>
+            </div>
+            <div class="package__wrapper">
+              <h1 class="package__text">Finland</h1>
+              <p class="package__text">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo,
+                consequuntur?
+              </p>
+            </div>
+          </div>
+
+          <div class="package__container">
+            <div class="package__wrapper">
+              <div class="package__extra"></div>
+            </div>
+            <div class="package__wrapper">
+              <h1 class="package__text">Korea</h1>
+              <p class="package__text">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo,
+                consequuntur?
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="cta" id="call">
+        <div class="cta__wrapper">
+          <h1 class="cta__heading">Call Centre</h1>
+          <p class="cta__text">
+            We're here to assist you with any issues or questions.
+          </p>
+          <button class="cta__btn">Reach Out</button>
+        </div>
+      </div>
+
+      <div class="footer">
+        <h1 class="footer__text">wayfarer</h1>
+        <span class="footer__text">&copy;2024 Abieza Ananta</span>
+      </div>
+    </div>
+
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
